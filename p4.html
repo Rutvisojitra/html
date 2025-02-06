@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+</head>
+
+<body style="background-color:bisque;">
+    <h1><U><CENTER><B style="font-family:cursive"> ACPC FORM</B></CENTER></U></h1>
+    <form>
+        <fieldset
+            <h2><legend><b>Personal information</b></legend></h2>
+
+            <label for="fname">Full name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter your full name" required><br><br>
+
+            <label for="profile_picture">Profile Picture :</label>
+            <input type="file" id="profile_picture" name="profile_picture" required> <br><br>
+
+            Gender:
+            <input id="male" type="radio" name="gender" value="male" required>
+            <label for="male">Male</lable>
+                <input id="female" type="radio" name="gender" value="female" required>
+                <label for="female">Female</lable>
+                    <input id="other" type="radio" name="gender" value="other" required>
+                    <label for="other">other</lable><br><br>
+
+                        <label for="dob">Date of Birth:</label>
+                        <input type="date" id="dob" required><br><br>
+
+                        <label for="cast">Cast:</label>
+                        <select id="cast" required>
+                            <option value="" disabled selected>Select Gender</option>
+                            <option value="open">open</option>
+                            <option value="obc">obc</option>
+                            <option value="ews">ews</option>
+                            <option value="st">st</option>
+                            <option value="sc">sc</option>
+                        </select><br><br>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email id" required><br><br>
+
+                        <label for="pn">Phone no:</label>
+                        <input type="phone" id="pn" name="pn" placeholder="Enter phone no" required><br><br>
+
+                        <label for="id">Set USER ID:</label>
+                        <input type="password" id="id" name="id" placeholder="Enter USER ID" required><br><br>
+
+                        <label for="password">Set Password:</label>
+                        <input type="password" id="password" name="password" placeholder="Enter password"required><br><br>
+
+                        <button type="reset">Reset</button>
+        </fieldset>
+
+        <fieldset 
+        <h2><legend><b>Education information</b></legend></h2>
+
+            <label for="group">Group:</label>
+            <select id="group" required>
+                <option value="" disabled selected>Select Group</option>
+                <option value="A">Group A</option>
+                <option value="B">Group B</option>
+                <option value="A-B">Group A-B</option>
+            </select><br><br>
+
+            <label for="year">Year:</label>
+            <input type="month" id="year" required><br><br>
+
+            <label for="board">Board:</label>
+            <select id="board" required>
+                <option value="" disabled selected>Select Board</option>
+                <option value="gs">GUJARAT SECONDARY & HIGHER SECONDARY EDUCATION BOARD</option>
+                <option value="ic">Council for the Indian School Certificate Examinations (CISCE - ICSE & ISC)</option>
+                <option value="ib">International Baccalaureate (IB) Board</option>
+            </select><br><br>
+
+            <label for="seat">Seat no.:</label>
+            <input type="text" id="seat" name="seat" placeholder="Enter seat no."><br><br>
+
+            <button type="reset">Reset</button>
+
+        </fieldset>
+
+        <fieldset>
+            <label for="Address"><h3>Address</h3></label>
+            <textarea id="Address" placeholder="Enter Address"></textarea><br><br>
+
+            <button type="reset">Reset</button>
+
+        </fieldset>
+
+        <input type="checkbox" id="check">
+        <lable for="check">I agree this information is must be True.</lable><br><br>
+
+        <center><button type="submit"><big>submit</big></button></center>
+
+    </form>
+</body>
+
+</html>
