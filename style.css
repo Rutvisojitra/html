@@ -1,0 +1,19 @@
+body
+{
+    background-image: url(images.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#box {
+    color: midnightblue;
+    font-size:300%;
+    text-align: left;
+    font-size: 200%;
+}
+.rs {
+    font-family: cursive;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    font-size: 100%;
+    font-weight: bold;
+}
